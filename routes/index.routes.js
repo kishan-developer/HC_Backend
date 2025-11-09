@@ -120,7 +120,7 @@ router.post("/bookVideoCall", async (req, res) => {
         ); // send to user
 
         const adminMailResponse = await mailSender(
-            "himalayacarpetsindia@gmail.com",
+            "carpetshimalaya@gmail.com",
             "New Video Call Book",
             admintemplate
         ); // send to Admin
@@ -187,7 +187,7 @@ router.post("/contact", async (req, res) => {
 
         // Send mail to admin
         await mailSender(
-            "himalayacarpetsindia@gmail.com",
+            "carpetshimalaya@gmail.com",
             `Contact Us: ${subject}`,
             htmlBody
         );
@@ -261,7 +261,7 @@ router.post("/custom-rug-request", async (req, res) => {
         });
 
         await mailSender(
-            "himalayacarpetsindia@gmail.com", // Admin's email address
+            "carpetshimalaya@gmail.com", // Admin's email address
             `New Custom Rug Request from ${name}`,
             adminHtmlBody
         );

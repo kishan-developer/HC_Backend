@@ -154,7 +154,7 @@ function forgotPasswordTemplate(resetLink) {
           <div class="footer">
             <div class="contact-info">
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto:himalayacarpetsindia@gmail.com">himalayacarpetsindia@gmail.com</a>
+              <a href="mailto:carpetshimalaya@gmail.com">carpetshimalaya@gmail.com</a>
             </div>
             <div class="contact-info">
               <i class="fa-solid fa-phone"></i>

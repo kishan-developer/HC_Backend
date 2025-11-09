@@ -93,7 +93,7 @@ function passwordChangeSuccessTemplate(userName = "User") {
 
        <!-- Footer -->
        <div class="footer">
-         <p>Need help? <a href="mailto:himalayacarpetsindia@gmail.com">Contact Support</a></p>
+         <p>Need help? <a href="mailto:carpetshimalaya@gmail.com">Contact Support</a></p>
          <p>© ${new Date().getFullYear()} Himalaya Carpets. All rights reserved.</p>
        </div>
      </div>

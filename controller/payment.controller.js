@@ -423,7 +423,7 @@ exports.paymentVerificationHandler = async (req, res) => {
         );
 
         await mailSender(
-            "himalayacarpetsindia@gmail.com",
+            "carpetshimalaya@gmail.com",
             "New Order Received",
             htmlBodyAdmin
         );
