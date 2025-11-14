@@ -72,7 +72,7 @@ app.use("/api/v1", router);
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("SRIJNFBS Server Live....");
+  res.send("SRIJNFBS Server Live....112");
 });
 
 
