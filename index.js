@@ -39,7 +39,10 @@ app.use("/images/products", express.static("/root/uploads/image/products"));
 // app.use("/images", express.static("/root/uploads/image"));
 
 // CORS settings
-const allowedOrigins = ["http://localhost:5174","http://localhost:5173"];
+const allowedOrigins = [
+  "https://thehimalayacarpets.online"
+];
+
 app.use(
   cors({
     origin: function (origin, callback) {
@@ -52,6 +55,7 @@ app.use(
     credentials: true,
   })
 );
+
 
 // Security headers
 app.use(helmet());
@@ -71,8 +75,8 @@ app.use(sendCustomResponse);
 app.use("/api/v1", router);
 
 // Default route
-app.get("/", (req, res) => {
-  res.send("SRIJNFBS Server Live....1");
+app.get("/home", (req, res) => {
+  res.send("Himalya Server Live....1");
 });
 
 

@@ -45,6 +45,7 @@ router.get("/categories/:id", getCategoryById);
 router.get("/offer", getOffer);
 router.get("/offer/:productId", getOfferOfProduct);
 
+
 router.post("/upload", async (req, res) => {
     try {
         const images = req.files?.files ?? null;
@@ -83,7 +84,6 @@ router.post("/upload", async (req, res) => {
         });
     }
 });
-
 
 
 router.post("/bookVideoCall", async (req, res) => {
@@ -141,6 +141,7 @@ router.post("/bookVideoCall", async (req, res) => {
     }
 });
 
+
 router.post("/newsletter", async (req, res) => {
     const { email } = req.body;
 
@@ -166,6 +167,7 @@ router.post("/newsletter", async (req, res) => {
         return res.error("Something went wrong. Please try again later.", 500);
     }
 });
+
 
 // POST /api/contact
 router.post("/contact", async (req, res) => {
@@ -209,6 +211,7 @@ router.post("/contact", async (req, res) => {
         return res.status(500).json({ error: "Failed to send message." });
     }
 });
+
 
 router.post("/custom-rug-request", async (req, res) => {
     // Destructure all expected fields from the form data
